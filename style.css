@@ -22,7 +22,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #bbb; 
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -34,17 +34,17 @@
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: #f9f9f9; 
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 input:checked+.slider {
-  background-color: #2196f3;
+  background-color: #1e88e5; 
 }
 
 input:focus+.slider {
-  box-shadow: 0 0 1px #2196f3;
+  box-shadow: 0 0 2px #1e88e5; 
 }
 
 input:checked+.slider:before {
@@ -75,14 +75,14 @@ td {
 }
 
 td.selected {
-  background-color: lightgreen;
+  background-color: #90ee90; 
 }
 
 .author-switcher {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 5px;
+  gap: 6px; 
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 12px; 
 }
